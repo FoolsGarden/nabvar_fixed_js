@@ -11,8 +11,8 @@ nav{
   height: 100%;
   position: fixed;
   display: block;
-  background: lightgray;
-  border-right: 2px solid lightgray;
+  background: gray;
+  border-right: 2px solid gray;
 }
 nav ul{
   padding: 0;
@@ -29,12 +29,6 @@ nav ul li a{
   text-decoration: none;
   color: black;
 }
-/*nav ul li:first-child{
-  border: none;
-  height: 30px;
-  padding: 0;
-  padding-left: 147px;
-}*/
 #icono-style{
   font-size: 40px;
   font-weight: bold;

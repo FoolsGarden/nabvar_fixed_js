@@ -3,7 +3,7 @@ $(document).ready(function(){
 
   $(".boton-menu").click(function(){
     if (cont == 0){
-      $(".material-icons").text("hola");
+      $(".material-icons").text("dehaze");
       $("nav ul li").css({"border":"none"});
       $("nav").animate({ left:"-140px" });
       $(".container").animate({ padding: "0 0 0 20" });
@@ -19,3 +19,7 @@ $(document).ready(function(){
     }
   });
 });
+
+
+:)
+
