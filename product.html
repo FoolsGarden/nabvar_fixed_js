@@ -9,8 +9,11 @@
 
   <!-- Esto especifica que podamos utilizar acentos dentro del HTML  -->
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-
+<!-- <meta http-equiv="refresh" content="3"> -->
   <!-- Esto especifica que podamos utilizar acentos dentro del HTML  -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">  <!-- iconos de navbar -->
   <link rel="stylesheet" href="main.css">
   <title>CodeaCamp</title>
 </head>
@@ -21,7 +24,8 @@
     </header>
     <nav>
       <ul>
-        <li><a href="top">Inicio</a></li>
+        <button class="boton-menu"><i class="material-icons" id="icono-style">clear</i></button>
+        <li><a href="#">Inicio</a></li>
         <li><a href="#que_hacemos">¿Qué Hacemos?</a></li>
         <li><a href="#pricing">Precios</a></li>
         <li><a href="#about">Nosotros</a></li>
